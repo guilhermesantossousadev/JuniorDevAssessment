@@ -47,7 +47,7 @@ npm run dev
 
 ## Banco de dados
 
-O projeto usa SQLite. O arquivo `API/Enterprise.db` e usado pela aplicacao durante o desenvolvimento.
+O projeto usa SQLite. O arquivo `Enterprise.db` e criado automaticamente na primeira execucao da API (`InicializadorBd`), com as tabelas `Clientes` e `Ocorrencias`. Ele nao e versionado: cada ambiente tem o seu banco local.
 
 ## Limpeza de repositorio
 

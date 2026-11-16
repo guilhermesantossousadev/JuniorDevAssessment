@@ -23,3 +23,7 @@ pnpm-debug.log*
 # OS files
 .DS_Store
 Thumbs.db
+
+# Banco SQLite local (criado automaticamente pelo InicializadorBd)
+*.db
+*.db-journal
